@@ -35,7 +35,7 @@ const Index = () => {
           placeholder="Add a new todo"
           className="flex-grow"
         />
-        <Button onClick={addTodo} className="bg-green-500 hover:bg-green-600">Add</Button>
+        <Button onClick={addTodo} className="bg-red-500 hover:bg-red-600">Add</Button>
       </div>
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
     </div>
