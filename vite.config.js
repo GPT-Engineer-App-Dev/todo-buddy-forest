@@ -23,3 +23,13 @@ export default defineConfig({
     ],
   },
 });
+// This is the Vite configuration file.
+// It is used to customize the Vite build process and development server.
+// Here we can define plugins, set up aliases, and configure other build options.
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+})
